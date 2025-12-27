@@ -56,7 +56,7 @@ header{
 	width: 35%;
 	padding: 10px 10px 100px 10px;
 	background-color: white;
-	height: 260px;
+	height: 280px;
 	user-select: none;
 	border: 5px solid black;
 }
@@ -70,7 +70,13 @@ header{
 .card:nth-child(even){
 	background-color: #aaa;
 }
-.card h1, .card h2, .card h3, .card-long h2{
+.card h1{
+	text-align: left;
+	margin: 0;
+	padding-left: 5%;
+}
+
+.card h2, .card h3, .card-long h2{
 	text-align: center;
 	margin: 0;
 }
@@ -91,7 +97,7 @@ header{
 	box-sizing: border-box;
 	padding: 10px 10px 100px 10px;
 	background-color: white;
-	height: 260px;
+	height: 280px;
 	border: 5px solid black;
 
 }

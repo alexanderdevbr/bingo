@@ -68,14 +68,14 @@ function newNum(){
 			}
 
 			//Escreve o último número na div correspondente
-			lastNumP.innerHTML = "<h1>"+letra.toUpperCase()+"</h1><p>"+newNum+"</p>";
+			lastNumP.innerHTML = "<div><button onclick='newNum();' class='btn' id='caller' style='width:180px'>Pr&oacute;ximo N&uacute;mero</button></div><h1>"+letra.toUpperCase()+"</h1><p>"+newNum+"</p>";
 
 			//Adiciona o novo número no array dos já foram
 			nums.push(newNum);
 
 			//confere se o jogo foi finalizado
 			if(nums.length == limite){
-				title.innerHTML += " - Finalizado"
+				title.innerHTML = " Bingo Finalizado!"
 				caller.disabled = 'disabled';
 				finalizado = true;
 			}
