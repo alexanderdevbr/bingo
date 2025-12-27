@@ -68,7 +68,7 @@ function newNum(){
 			}
 
 			//Escreve o último número na div correspondente
-			lastNumP.innerHTML = "<div><button onclick='newNum();' class='btn' id='caller' style='width:180px'>Pr&oacute;ximo N&uacute;mero</button></div><h1>"+letra.toUpperCase()+"</h1><p>"+newNum+"</p>";
+			lastNumP.innerHTML = "<div><button class='btn' id='caller' style='width:180px'>Pr&oacute;ximo N&uacute;mero</button></div><h1>"+letra.toUpperCase()+"</h1><p>"+newNum+"</p>";
 
 			//Adiciona o novo número no array dos já foram
 			nums.push(newNum);

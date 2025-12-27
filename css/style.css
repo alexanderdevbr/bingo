@@ -101,6 +101,10 @@ header{
 	border: 5px solid black;
 
 }
+.card-long p{
+	color: brown;
+	font-weight: bolder;
+}
 #lastNum{
 	display: block;
 	float: left;
