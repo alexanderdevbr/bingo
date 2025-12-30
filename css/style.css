@@ -56,7 +56,7 @@ header{
 	width: 35%;
 	padding: 10px 10px 100px 10px;
 	background-color: white;
-	height: 280px;
+	height: 340px;
 	user-select: none;
 	border: 5px solid black;
 }
@@ -71,7 +71,7 @@ header{
 	background-color: #aaa;
 }
 .card h1{
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	padding-left: 5%;
 }
@@ -86,7 +86,7 @@ header{
 	color: black;
 }
 .card p, .card-long p{
-	font-size: 30px;
+	font-size: 37px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -97,11 +97,18 @@ header{
 	box-sizing: border-box;
 	padding: 10px 10px 100px 10px;
 	background-color: white;
-	height: 280px;
+	height: 340px;
 	border: 5px solid black;
 
 }
+.card-long h1{
+	margin: 1px;
+	background: #4caf50;
+	font-size:45px;
+	color: white;
+}
 .card-long p{
+	margin-top: 1px;
 	color: brown;
 	font-weight: bolder;
 }
@@ -112,7 +119,7 @@ header{
 	color: black;
 }
 #lastNum h1{
-	font-size:50px;
+	font-size:45px;
 }
 #lastNum p{
 	color: #3f51b5;
@@ -120,11 +127,11 @@ header{
 	animation: brilhar 2s 1;
 	font-size: 650%;
 	background-color: orange;
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
-	line-height: 160px;
-	margin: 10px auto 0 auto;
+	line-height: 200px;
+	margin: 25px auto 0 auto;
 	text-align: center;
 }
 #lastNum:hover p{
@@ -135,7 +142,7 @@ header{
 		font-size: 650%;
 	}
 	50%{
-		font-size: 800%;
+		font-size: 850%;
 	}
 	100%{
 		font-size: 650%;
